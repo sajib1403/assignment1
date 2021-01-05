@@ -17,7 +17,7 @@
     margin: 30px;
 }
 .half-width img{
-    width: 100%;
+    width: 80%;
 }
 section{
     height: 500px;
@@ -25,4 +25,29 @@ section{
 }
 body{
     margin: 0%;
+}
+.project-part{
+    box-shadow: 5px 5px 8px dimgray;
+    border-radius: 8px; 
+    background-color: white;
+}
+.half-width-project{
+    width: 30%;
+    float: left;
+    margin: 1%;
+    padding:0.5%;
+}
+.half-width-project img{
+    width: 100%;
+}
+.inquiry{
+    background-image: url(images/inquiry.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.footer-icon{
+    width: 15%;
+    float: left;
+    height: 10px;
 }
