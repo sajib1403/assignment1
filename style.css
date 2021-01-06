@@ -32,7 +32,7 @@ p{
     color: dimgray;
 }
 .project-part{
-    box-shadow: 7px 7px 7px 7px whitesmoke;
+    box-shadow: 5px 5px 5px 5px gray;
     border-radius: 8px; 
     background-color: white;
 }
