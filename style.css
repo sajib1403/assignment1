@@ -6,7 +6,7 @@
     text-decoration: none;
     background-image: linear-gradient(45deg, lightsalmon,tomato);
     color:white;
-    margin: 1%;
+    /* margin: 1%; */
     padding: 10px 20px;
     border-radius: 10px;
     font-weight: bold;
@@ -17,17 +17,22 @@
     margin: 30px;
 }
 .half-width img{
-    width: 80%;
+    width: 70%;
 }
 section{
-    height: 500px;
+    height: 400px;
     padding-bottom: 100px;
 }
 body{
     margin: 0%;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+p{
+    color: dimgray;
 }
 .project-part{
-    box-shadow: 5px 5px 8px dimgray;
+    box-shadow: 7px 7px 7px 7px whitesmoke;
     border-radius: 8px; 
     background-color: white;
 }
@@ -45,9 +50,48 @@ body{
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
+    
 }
+.centered {
+    position: absolute;
+    top: 44%;
+    left: 30%;
+
+  }
+.chat-button{
+    position: absolute;
+    top: 48%;
+    left: 62%;
+    width: 100%;
+}
+
 .footer-icon{
-    width: 15%;
+    width: 2%;
     float: left;
     height: 10px;
+    bottom: 0;
+    padding: 4;
+    
+    
+}
+.footer{
+
+    left: 0;
+    bottom: 0;
+    /* width: 100%; */
+    display: block;
+    text-align: center;
+    /* position: relative; */
+    padding: 10%;
+    
+}
+.project-text{
+ text-align: center;
+}
+.footer-align{
+   text-align: center;
+}
+.bonus-part{
+    text-align: center;
 }
